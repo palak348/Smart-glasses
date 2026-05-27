@@ -1,0 +1,38 @@
+# Virtual environments
+bcg_ai_env/
+venv/
+env/
+.venv/
+
+# Python cache / build
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.ipynb_checkpoints/
+
+# Model weights (large, auto-downloaded)
+*.pt
+*.onnx
+*.tflite
+*.engine
+
+# YOLO training / inference outputs
+runs/
+
+# Datasets and archives (large)
+datasets/
+data/
+*.zip
+*.tar
+*.tar.gz
+
+# Local outputs / scratch
+outputs/
+*.log
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
