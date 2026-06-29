@@ -16,6 +16,7 @@ __pycache__/
 *.onnx
 *.tflite
 *.engine
+*_openvino_model/
 
 # YOLO training / inference outputs
 runs/
@@ -30,6 +31,9 @@ data/
 # Local outputs / scratch
 outputs/
 *.log
+*.jpg
+*.jpeg
+*.png
 
 # OS / editor junk
 .DS_Store
